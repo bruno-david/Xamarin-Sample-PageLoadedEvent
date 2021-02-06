@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<components:ExtendedContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:components="clr-namespace:Xamarin.Sample.PageLoadedEvent.Components"
+    x:Class="Xamarin.Sample.PageLoadedEvent.TargetPage"
+    Title="Target Page">
+    <components:ExtendedContentPage.Content>
+        <StackLayout
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand">
+            <Label
+                Text="Target Page" />
+        </StackLayout>
+    </components:ExtendedContentPage.Content>
+</components:ExtendedContentPage>
